@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/6fd7f3e/
+0	package.json	/^      "plugin:vue\/essential",$/;"	s	array:eslintConfig.extends
+0	package.json	/^    "> 1%",$/;"	s	array:browserslist
+1	package.json	/^      "eslint:recommended"$/;"	s	array:eslintConfig.extends
+1	package.json	/^    "last 2 versions",$/;"	s	array:browserslist
+2	package.json	/^    "not ie <= 8"$/;"	s	array:browserslist
+@mdi/font	package.json	/^    "@mdi\/font": "^3.5.95",$/;"	s	object:devDependencies
+@vue/cli-plugin-babel	package.json	/^    "@vue\/cli-plugin-babel": "^3.5.0",$/;"	s	object:devDependencies
+@vue/cli-plugin-eslint	package.json	/^    "@vue\/cli-plugin-eslint": "^3.5.0",$/;"	s	object:devDependencies
+@vue/cli-service	package.json	/^    "@vue\/cli-service": "^3.5.0",$/;"	s	object:devDependencies
+Compiles and hot-reloads for development	README.md	/^### Compiles and hot-reloads for development$/;"	S
+Compiles and minifies for production	README.md	/^### Compiles and minifies for production$/;"	S
+Customize configuration	README.md	/^### Customize configuration$/;"	S
+FantasqueSansMono-Bold	src/assets/fonts/FantasqueSansMono-Bold.svg	/^<font id="FantasqueSansMono-Bold" horiz-adv-x="1060" >$/;"	i
+FantasqueSansMono-BoldItalic	src/assets/fonts/FantasqueSansMono-BoldItalic.svg	/^<font id="FantasqueSansMono-BoldItalic" horiz-adv-x="1060" >$/;"	i
+FantasqueSansMono-Italic	src/assets/fonts/FantasqueSansMono-Italic.svg	/^<font id="FantasqueSansMono-Italic" horiz-adv-x="1060" >$/;"	i
+FantasqueSansMono-Regular	src/assets/fonts/FantasqueSansMono-Regular.svg	/^<font id="FantasqueSansMono-Regular" horiz-adv-x="1060" >$/;"	i
+Lints and fixes files	README.md	/^### Lints and fixes files$/;"	S
+Material Design Icons activated	README.md	/^### Material Design Icons activated$/;"	S
+Project setup	README.md	/^## Project setup$/;"	s
+Run your tests	README.md	/^### Run your tests$/;"	S
+VueLoaderPlugin	webpack.config.js	/^const VueLoaderPlugin = require('vue-loader\/lib\/plugin')$/;"	C
+app	public/index.html	/^    <div id="app"><\/div>$/;"	I
+autoprefixer	package.json	/^      "autoprefixer": {}$/;"	o	object:postcss.plugins
+babel-eslint	package.json	/^    "babel-eslint": "^10.0.1",$/;"	s	object:devDependencies
+browserslist	package.json	/^  "browserslist": [$/;"	a
+build	package.json	/^    "build": "vue-cli-service build",$/;"	s	object:scripts
+core-js	package.json	/^    "core-js": "^2.6.5",$/;"	s	object:dependencies
+css-loader	package.json	/^    "css-loader": "^2.1.1",$/;"	s	object:devDependencies
+dependencies	package.json	/^  "dependencies": {$/;"	o
+devDependencies	package.json	/^  "devDependencies": {$/;"	o
+env	package.json	/^    "env": {$/;"	o	object:eslintConfig
+eslint	package.json	/^    "eslint": "^5.16.0",$/;"	s	object:devDependencies
+eslint-loader	package.json	/^    "eslint-loader": "^2.1.2",$/;"	s	object:devDependencies
+eslint-plugin-vue	package.json	/^    "eslint-plugin-vue": "^5.0.0",$/;"	s	object:devDependencies
+eslintConfig	package.json	/^  "eslintConfig": {$/;"	o
+exports	babel.config.js	/^module.exports = {$/;"	c	class:module
+exports	webpack.config.js	/^module.exports = {$/;"	c	class:module
+extends	package.json	/^    "extends": [$/;"	a	object:eslintConfig
+krry.me	README.md	/^# krry.me$/;"	c
+lint	package.json	/^    "lint": "vue-cli-service lint"$/;"	s	object:scripts
+mode	webpack.config.js	/^  mode: 'development',$/;"	p	class:module.exports
+module	webpack.config.js	/^  module: {$/;"	c	class:module.exports
+name	package.json	/^  "name": "krry.me",$/;"	s
+node	package.json	/^      "node": true$/;"	b	object:eslintConfig.env
+parser	package.json	/^      "parser": "babel-eslint"$/;"	s	object:eslintConfig.parserOptions
+parserOptions	package.json	/^    "parserOptions": {$/;"	o	object:eslintConfig
+plugins	package.json	/^    "plugins": {$/;"	o	object:postcss
+plugins	webpack.config.js	/^  plugins: [$/;"	p	class:module.exports
+postcss	package.json	/^  "postcss": {$/;"	o
+presets	babel.config.js	/^  presets: [$/;"	p	class:module.exports
+private	package.json	/^  "private": true,$/;"	b
+pug	package.json	/^    "pug": "^2.0.3",$/;"	s	object:devDependencies
+pug-plain-loader	package.json	/^    "pug-plain-loader": "^1.0.0",$/;"	s	object:devDependencies
+root	package.json	/^    "root": true,$/;"	b	object:eslintConfig
+rules	package.json	/^    "rules": {},$/;"	o	object:eslintConfig
+rules	webpack.config.js	/^    rules: [$/;"	p	class:module.exports.module
+scripts	package.json	/^  "scripts": {$/;"	o
+serve	package.json	/^    "serve": "vue-cli-service serve",$/;"	s	object:scripts
+stylus	package.json	/^    "stylus": "^0.54.5",$/;"	s	object:devDependencies
+stylus-loader	package.json	/^    "stylus-loader": "^3.0.2",$/;"	s	object:devDependencies
+version	package.json	/^  "version": "0.2.0",$/;"	s
+vue	package.json	/^    "vue": "^2.6.6",$/;"	s	object:dependencies
+vue-cli-plugin-vuetify	package.json	/^    "vue-cli-plugin-vuetify": "^0.5.0",$/;"	s	object:devDependencies
+vue-cookies	package.json	/^    "vue-cookies": "^1.5.13",$/;"	s	object:dependencies
+vue-input-autowidth	package.json	/^    "vue-input-autowidth": "^1.0.3"$/;"	s	object:dependencies
+vue-loader	package.json	/^    "vue-loader": "^15.7.0",$/;"	s	object:devDependencies
+vue-template-compiler	package.json	/^    "vue-template-compiler": "^2.6.10",$/;"	s	object:devDependencies
+vuetify	package.json	/^    "vuetify": "^1.5.8",$/;"	s	object:devDependencies
+webpack	package.json	/^    "webpack": "^4.29.6"$/;"	s	object:devDependencies
