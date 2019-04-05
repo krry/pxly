@@ -4,8 +4,8 @@ v-app(dark elevation="1")
         v-container(fluid fill-height grid-list-lg)
             v-layout(row wrap)
                 Possibly
-                Presently
                 Previously
+                Presently
         CookieDialog
         Footer
 </template>

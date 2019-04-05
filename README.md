@@ -1,6 +1,12 @@
-# krry.me
+# pxly
+
+## Built with
+
+- Vue.js
+- Vuetify - Material Design framework
 
 ## Project setup
+
 ```
 yarn install
 ```

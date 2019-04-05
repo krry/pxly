@@ -1,5 +1,5 @@
 {
-  "name": "krry.me",
+  "name": "pxly",
   "version": "0.2.0",
   "private": true,
   "scripts": {
@@ -11,8 +11,7 @@
     "core-js": "^2.6.5",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.6",
-    "vue-cookies": "^1.5.13",
-    "vue-input-autowidth": "^1.0.3"
+    "vue-cookies": "^1.5.13"
   },
   "devDependencies": {
     "@mdi/font": "^3.5.95",
@@ -34,6 +33,19 @@
     "vue-template-compiler": "^2.6.10",
     "vuetify": "^1.5.8",
     "webpack": "^4.29.6"
+  },
+  "vue": {
+    "pwa": {
+      "iconPaths": {
+        "favicon32": "src/assets/icons/favicon-32x32.png",
+        "favicon16": "src/assets/icons/favicon-16x16.png",
+        "appleTouchIcon": "src/assets/icons/apple-touch-icon-152x152.png",
+        "msTileImage": "src/assets/icons/mstile-144x144.png"
+      },
+      "themeColor": "",
+      "msTileColor": "",
+      "appleMobileWebAppStatusBarStyle": "black"
+    }
   },
   "eslintConfig": {
     "root": true,
