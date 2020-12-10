@@ -12,7 +12,9 @@
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.6",
     "vue-cookies": "^1.5.13",
-    "vue-i18n": "^8.0.0"
+    "vue-i18n": "^8.0.0",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@kazupon/vue-i18n-loader": "^0.3.0",
@@ -37,37 +39,15 @@
     "vuetify": "^1.5.8",
     "webpack": "^4.29.6"
   },
-  "vue": {
-    "pwa": {
-      "iconPaths": {
-        "favicon32": "src/assets/icons/favicon-32x32.png",
-        "favicon16": "src/assets/icons/favicon-16x16.png",
-        "appleTouchIcon": "src/assets/icons/apple-touch-icon-152x152.png",
-        "msTileImage": "src/assets/icons/mstile-144x144.png"
-      },
-      "themeColor": "",
-      "msTileColor": "",
-      "appleMobileWebAppStatusBarStyle": "black"
-    },
-    "pluginOptions": {
-      "i18n": {
-        "locale": "en",
-        "fallbackLocale": "en",
-        "localeDir": "locales",
-        "enableInSFC": true
-      }
-    }
-  },
   "eslintConfig": {
     "root": true,
     "env": {
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
+      "plugin:vue/strongly-recommended",
       "eslint:recommended"
     ],
-    "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
     }

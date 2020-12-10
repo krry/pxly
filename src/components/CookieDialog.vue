@@ -21,7 +21,7 @@ v-dialog(
             v-text-field(
                 box
                 v-model="visitorName"
-                label="And you are?"
+                label="May I ask your name?"
                 color="primary"
                 clearable
                 autofocus

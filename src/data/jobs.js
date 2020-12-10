@@ -56,9 +56,8 @@ export default [
         "description": "Saluting the Mouse",
         "role": "Saluting the Mouse",
         "links": ["https://techcrunch.com/2011/02/23/disney-acquires-social-network-for-kids-togetherville/"],
-        "logoFile": "disney.png",
+        "logoFile": "Disney_Interactive.png",
         "maxWidth": "100%",
-        "maxHeight": 72,
         "color": "blue darken-3",
     },
     {

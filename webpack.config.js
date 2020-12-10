@@ -1,13 +1,19 @@
 // webpack.config.js
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
+const { VuetifyProgressiveModule } = require('vuetify-loader')
 
 module.exports = {
   mode: 'development',
   module: {
     rules: [
-      { // required
+      {
         test: /\.vue$/,
-        loader: 'vue-loader'
+        loader: 'vue-loader',
+        options: {
+          compilerOptions: {
+            modules: [VuetifyProgressiveModule]
+          }
+        }
       },
       { // es6+ everywhere but at the root here
         test: /\.js$/,
